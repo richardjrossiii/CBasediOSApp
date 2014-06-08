@@ -6,13 +6,13 @@ Inspired by [this](http://stackoverflow.com/q/10289890/427309) StackOverflow pos
 I have simply kept this project in my DropBox for the past year or so, and decided it was time for it to get an upgrade, along with several other of my projects.
 
 ## Goals
-The only goal of this application was to create an app that compiled, ran, and displayed something on the screen using only the C programming language. No other goals were put in place, and this code is most definitely **not** portable. If you would like to see a Mac applciation with similar goals, see [this](https://github.com/CodaFi/C-Macs) project instead.
+The only goal of this application was to create an app that compiled, ran, and displayed something on the screen using only the C programming language. No other goals were put in place, and this code is most definitely **not** portable. If you would like to see a Mac application with similar goals, see [this](https://github.com/CodaFi/C-Macs) project instead.
 
 ## Design
 The design was fairly straightforward and simple - one file which contained the `main()` function, that simply setup my app delegate, like any other iOS app, a file which contained the actual source of the app delegate, and finally, the file which contained my custom view & drawing code.
 
 ## Remarks
-This is mostly a rehtorical project, and not something I would **ever** reccomend using in an actual application. It is a cool proof of concept, but relies on a lot of undefined behavior in the C language that is well-specified for the ARM architecture that iOS uses.
+This is mostly a rhetorical project, and not something I would **ever** recommend using in an actual application. It is a cool proof of concept, but relies on a lot of undefined behavior in the C language that is well-specified for the ARM architecture that iOS uses.
 
 ## License
 Copyright 2013 Richard J. Ross III.
